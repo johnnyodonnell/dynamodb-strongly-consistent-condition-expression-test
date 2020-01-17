@@ -28,10 +28,10 @@ const ddelete = (increment) => {
             Key: {
                 id: "123",
             },
-            ReturnValues: "ALL_OLD"
+            ConditionExpression: "attribute_exists(id)"
         },
         (err, data) => {
-            if (data && data.Attributes) {
+            if (!err) {
                 increment();
             }
         });
