@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/27198804/are-dynamodb-conditional-writes-strongly-consistent
+https://stackoverflow.com/questions/20544518/dynamodb-conditional-writes-vs-the-cap-theorem
+
